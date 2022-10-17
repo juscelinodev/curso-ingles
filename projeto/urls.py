@@ -20,4 +20,11 @@ from app_curso_ingles import views
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('cadastro', views.cadastro, name='cadastro'),
+    path('login', views.login, name='login'),
+    path('logout', views.logout, name='logout'),    
+    path('cursos', views.cursos, name='cursos'),    
+    path('perfil', views.perfil, name='perfil'),    
+    path('sobre', views.sobre, name='sobre'),    
+    path('progresso', views.progresso, name='progresso'),    
 ]

@@ -11,12 +11,12 @@
 </head>
 <body>
     <nav class="container-nav">
-        <img class="logo" src="{% static 'img/logo.jpg' %}" alt="LOGO">
+        <a href="{% url 'home' %}"><img class="logo" src="{% static 'img/logo.jpg' %}" alt="LOGO"></a>
         <div class="botoes">
-            <button class="cursos"> Cursos </button>
-            <button class="progresso"> Progresso </button>
-            <button class="perfil"> Perfil </button>
-            <button class="nos"> Sobre Nós </button>
+            <button onclick="window.location.href='{% url 'cursos' %}';" class="cursos"> Cursos </button>
+            <button onclick="window.location.href='{% url 'progresso' %}';" class="progresso"> Progresso </button>
+            <button onclick="window.location.href='{% url 'perfil' %}';" class="perfil"> Perfil </button>
+            <button onclick="window.location.href='{% url 'sobre' %}';" class="sobre"> Sobre Nós </button>
         </div>
     </nav>
 
