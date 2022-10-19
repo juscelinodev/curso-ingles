@@ -1,0 +1,27 @@
+django-admin startproject projeto . 
+
+python manage.py startapp NOME_DA_APP
+
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+python manage.py createsuperuser
+
+python manage.py changepassword <user_name>
+
+python manage.py runserver
+
+
+python manage.py flush 
+
+
+pip install -r requirements.txt
+
+
+python -m venv venv
+venv\Scripts' precisar ativar a máquina virtual em 'activate'
+
+
